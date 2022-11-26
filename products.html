@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GlassesInn</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="head-contact">
+        <p class="head-contact-text1">1-Day Delivery - Get your glasses faster! <a href="products.html">Shop now</a>
+            <span class="head-contact-text2">Call us: 021-00000000</span></p>
+    </div>
+    <nav class="navbar navbar-expand-lg nav-back sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" id="logoImage"><img src="images/315374617_442133921435396_5118442424559220880_n.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbar-allbuttons" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ps-3">
+                    <li class="nav-item">
+                        <a class="nav-link navbar-allbut" aria-current="page" href="index.html">HOME</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navbar-allbut" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            CATEGORIES
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item navbar-allbut" href="menproduct.html">MEN</a></li>
+                            <li><a class="dropdown-item navbar-allbut" href="womenproducts.html">WOMEN</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-allbut" href="products.html">SHOP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-allbut" href="login.html">ACCOUNT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-allbut" href="about.html">ABOUT</a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link cart-icon navbar-allbut" href="cart.html"><i
+                                class="fa-solid fa-cart-shopping"></i> </a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <input type="button" value="logout" class="btn"  onclick="logout()">
+                    </li> -->
+                </ul>
+
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="prod-div">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="first-prod-div" id="show" onclick="showProd(show)">
+                        <div class="img-div">
+                            <img src="images/Rayban-6802-1-920x613.jpg" alt="" id="prod-img1">
+                        </div>
+                        <div class="prod-desc">
+                            <p class="prod-name" id="prod-name1">Rayban 6802</p>
+                            <p class="prod-rate" id="prod-rate1">Rs 1990</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="first-prod-div" id="show1" onclick="showProd(show1)">
+                        <div class="img-div">
+                            <img src="images/Rayban-6810-1-920x613.jpg" alt="" id="prod-img2">
+                        </div>
+                        <div class="prod-desc">
+                            <p class="prod-name" id="prod-name2">Rayban 6810</p>
+                            <p class="prod-rate" id="prod-rate2">Rs 1990</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="first-prod-div" id="show2" onclick="showProd(show2)">
+                        <div class="img-div">
+                            <img src="images/8004-1-920x613.webp" alt="" id="prod-img3">
+                        </div>
+                        <div class="prod-desc">
+                            <p class="prod-name" id="prod-name3">Transparent 8004</p>
+                            <p class="prod-rate" id="prod-rate3">Rs 1490</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="first-prod-div" id="show3" onclick="showProd(show3)">
+                        <div class="img-div">
+                            <img src="images/RB-2180-1-920x613.webp" alt="" id="prod-img4">
+                        </div>
+                        <div class="prod-desc">
+                            <p class="prod-name" id="prod-name4">Rayban 2140</p>
+                            <p class="prod-rate" id="prod-rate4">Rs 3990</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="prod-div">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="first-prod-div" id="show4" onclick="showProd(show4)">
+                        <div class="img-div">
+                            <img src="images/PRADA-6125-1-920x613.webp" alt="" id="prod-img5">
+                        </div>
+                        <div class="prod-desc">
+                            <p class="prod-name" id="prod-name5">Prada 2125</p>
+                            <p class="prod-rate" id="prod-rate5">Rs 1790</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="first-prod-div" id="show5" onclick="showProd(show5)">
+                        <div class="img-div">
+                            <img src="images/BLAUER-BL01102-1-920x613.webp" alt="" id="prod-img6">
+                        </div>
+                        <div class="prod-desc">
+                            <p class="prod-name" id="prod-name6">Blaure 5011</p>
+                            <p class="prod-rate" id="prod-rate6">Rs 3490</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="first-prod-div" id="show6" onclick="showProd(show6)">
+                        <div class="img-div">
+                            <img src="images/BLAUER-BL007-1-920x613.webp" alt="" id="prod-img7">
+                        </div>
+                        <div class="prod-desc">
+                            <p class="prod-name" id="prod-name7">Blaure 007</p>
+                            <p class="prod-rate" id="prod-rate7">Rs 3490</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="first-prod-div" id="show7" onclick="showProd(show7)">
+                        <div class="img-div">
+                            <img src="images/Tom-Ford-FT5040-Black-1-920x613.webp" alt="" id="prod-img8">
+                        </div>
+                        <div class="prod-desc">
+                            <p class="prod-name" id="prod-name8">Tom Ford Ft5040</p>
+                            <p class="prod-rate" id="prod-rate8">Rs 4290</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="prod-div">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="first-prod-div" id="show8" onclick="showProd(show8)">
+                        <div class="img-div">
+                            <img src="images/Tom-Ford-FT5461-Black-1.webp" alt="" id="prod-img9">
+                        </div>
+                        <div class="prod-desc">
+                            <p class="prod-name" id="prod-name9">Tom Ford Ft5461</p>
+                            <p class="prod-rate" id="prod-rate9">Rs 4290</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="first-prod-div" id="show9" onclick="showProd(show9)">
+                        <div class="img-div">
+                            <img src="images/Tom-Ford-FT5400-Black-1.webp" alt="" id="prod-img10">
+                        </div>
+                        <div class="prod-desc">
+                            <p class="prod-name" id="prod-name10">Tom Ford Ft5400</p>
+                            <p class="prod-rate" id="prod-rate10">Rs 4290</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="first-prod-div" id="show10" onclick="showProd(show10)">
+                        <div class="img-div">
+                            <img src="images/Tom-Ford-FT-5176-Gray-1.webp" alt="" id="prod-img11">
+                        </div>
+                        <div class="prod-desc">
+                            <p class="prod-name" id="prod-name11">Tom Ford Ft5176</p>
+                            <p class="prod-rate" id="prod-rate11">Rs 4290</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="first-prod-div" id="show11" onclick="showProd(show11)">
+                        <div class="img-div">
+                            <img src="images/Tom-Ford-FT-0336-Black-1-920x613.webp" alt="" id="prod-img12">
+                        </div>
+                        <div class="prod-desc">
+                            <p class="prod-name" id="prod-name12">Tom Ford Ft0336</p>
+                            <p class="prod-rate" id="prod-rate12">Rs 4290</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="prod-div">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="first-prod-div" id="show12" onclick="showProd(show12)">
+                        <div class="img-div">
+                            <img src="images/RB-2180-1-920x613.webp" alt="" id="prod-img13">
+                        </div>
+                        <div class="prod-desc">
+                            <p class="prod-name" id="prod-name13">Rayban 2140</p>
+                            <p class="prod-rate" id="prod-rate13">Rs3,990</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="first-prod-div" id="show13" onclick="showProd(show13)">
+                        <div class="img-div">
+                            <img src="images/Cat-Eye-2089-1.webp" alt="" id="prod-img14">
+                        </div>
+                        <div class="prod-desc">
+                            <p class="prod-name" id="prod-name14">Cat Eye 2089</p>
+                            <p class="prod-rate" id="prod-rate14">Rs1,190</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="first-prod-div" id="show14" onclick="showProd(show14)">
+                        <div class="img-div">
+                            <img src="images/Rayban-6802-1-920x613.jpg" alt="" id="prod-img15">
+                        </div>
+                        <div class="prod-desc">
+                            <p class="prod-name" id="prod-name15">Rayban 6802</p>
+                            <p class="prod-rate" id="prod-rate15">Rs1,990</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="first-prod-div" id="show15" onclick="showProd(show15)">
+                        <div class="img-div">
+                            <img src="images/Rayban-6810-1-920x613.jpg" alt="" id="prod-img16">
+                        </div>
+                        <div class="prod-desc">
+                            <p class="prod-name" id="prod-name16">Rayban 6810</p>
+                            <p class="prod-rate" id="prod-rate16">Rs1,990</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="prod-div">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="first-prod-div" id="show16" onclick="showProd(show16)">
+                        <div class="img-div">
+                            <img src="images/8004-pink-1-920x613.webp" alt="" id="prod-img17">
+                        </div>
+                        <div class="prod-desc">
+                            <p class="prod-name" id="prod-name17">Aviator 8004</p>
+                            <p class="prod-rate" id="prod-rate17">Rs1,490</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="first-prod-div" id="show17" onclick="showProd(show17)">
+                        <div class="img-div">
+                            <img src="images/Chanel-3253-1-920x613.webp" alt="" id="prod-img18">
+                        </div>
+                        <div class="prod-desc">
+                            <p class="prod-name" id="prod-name18">Chanel 325</p>
+                            <p class="prod-rate" id="prod-rate18">Rs2,990</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="first-prod-div" id="show18" onclick="showProd(show18)">
+                        <div class="img-div">
+                            <img src="images/8004-1-920x613.webp" alt="" id="prod-img19">
+                        </div>
+                        <div class="prod-desc">
+                            <p class="prod-name" id="prod-name19">Transparent 8004</p>
+                            <p class="prod-rate" id="prod-rate19">Rs1,490</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="first-prod-div" id="show19" onclick="showProd(show19)">
+                        <div class="img-div">
+                            <img src="images/Armani-black-and-red-1029-1-1.webp" alt="" id="prod-img20">
+                        </div>
+                        <div class="prod-desc">
+                            <p class="prod-name" id="prod-name20">EMPORIO ARMANI 1029C1</p>
+                            <p class="prod-rate" id="prod-rate20">Rs2,490</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="prod-div">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="first-prod-div" id="show20" onclick="showProd(show20)">
+                        <div class="img-div">
+                            <img src="images/Harry-potter-Black-1.webp" alt="" id="prod-img21">
+                        </div>
+                        <div class="prod-desc">
+                            <p class="prod-name" id="prod-name21">Harry Potter Glasses</p>
+                            <p class="prod-rate" id="prod-rate21">Rs1,290</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="first-prod-div" id="show21" onclick="showProd(show21)">
+                        <div class="img-div">
+                            <img src="images/Prada-1985-1-920x613.webp" alt="" id="prod-img22">
+                        </div>
+                        <div class="prod-desc">
+                            <p class="prod-name" id="prod-name22">Prada 1985</p>
+                            <p class="prod-rate" id="prod-rate22">Rs1,990</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="first-prod-div" id="show22" onclick="showProd(show22)">
+                        <div class="img-div">
+                            <img src="images/black-brown-6647-1.webp" alt="" id="prod-img23">
+                        </div>
+                        <div class="prod-desc">
+                            <p class="prod-name" id="prod-name23">WAYFRARE 6647</p>
+                            <p class="prod-rate" id="prod-rate23">Rs1,990</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="first-prod-div" id="show23" onclick="showProd(show23)">
+                        <div class="img-div">
+                            <img src="images/Chanel-3252-Black-1-920x613.webp" alt="" id="prod-img24">
+                        </div>
+                        <div class="prod-desc">
+                            <p class="prod-name" id="prod-name24">CHANEL 3253C</p>
+                            <p class="prod-rate" id="prod-rate24">Rs2,890</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-content">
+            <img src="images/315374617_442133921435396_5118442424559220880_n.png" class="logo" alt="">
+            <div class="footer-ul-container">
+                <ul class="category">
+                    <li class="category-title">CATEGORIES</li>
+                    <li><a href="menproduct.html" class="footer-link">MEN</a></li>
+                    <li><a href="womenproducts.html" class="footer-link">WOMEN</a></li>
+
+                </ul>
+                <ul class="category">
+                    <li class="category-title">IMPORTANT LINKS</li>
+                    <li><a href="index.html" class="footer-link">HOME</a></li>
+                    <li><a href="products.html" class="footer-link">SHOP</a></li>
+                    <li><a href="login.html" class="footer-link">ACCOUNT</a></li>
+                    <li><a href="about.html" class="footer-link">ABOUT</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="products.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GlassesInn</title>
+    <link rel="stylesheet" href="address.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <div>
+                    
+                        <div>
+                            <label for="name">Your Name:</label><br>
+                            <input type="text" id="name" class="inp textFieldShow" required>
+                        </div>
+                        <div>
+                            <label for="pnum">Phone Number:</label><br>
+                            <input type="text" id="pnum" class="inp textFieldShow" required>
+                        </div>
+                        <div>
+                            <label for="address">Full Address:</label><br>
+                            <input type="text" id="address" class="inp textFieldShow" required>
+                        </div>
+                        <div>
+                            <label for="speIns">Special Instructions:</label><br>
+                            <input type="text" id="speIns" class="inp textFieldShow" required>
+                        </div>
+                        <div>
+                            <label for="pay">Payment:</label><br>
+                            <input type="radio" id="cash" name="fav_language" value="cash" checked>
+                            <label for="html">CASH</label><br>
+                            <input type="radio" id="creditCard" name="fav_language" value="creditCard">
+                            <label for="css">Credit/Debit Card</label><br>
+                            
+                        </div>
+                    
+                        <div class="button-div">
+                            <input type="submit" value="Place Your Order" class="but shadow" id="button-sub" onclick="orderPlace()">
+                        </div>
+                    </form>
+                </div>
+                <section id="cart-container" class="main-container my-5">
+                <div>
+                    <table class="total" width="40%">
+                        <thead>
+                           <tr>
+                               <th>Subtotal</th>
+                               <th>Delivery</th>
+                               <th>Total</th>
+                           </tr>
+                           
+                        </thead>
+                        <tbody>
+                           <tr>
+                               <td id="subtotal"><span id="addSub"></span></td>
+                               <td id="delivery"><span id="addDel"></span></td>
+                               <td id="totalpayment"><span id="addTot"></span></td>
+                           </tr>
+                        </tbody>
+                   </table>
+                </div>
+            </section>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="module" src="address.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
